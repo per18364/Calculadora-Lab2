@@ -37,17 +37,18 @@
             android:layout_marginBottom="1pt">
             <Button
                 android:text="AC"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners2"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/buAC"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 android:layout_marginRight="1pt"
-                android:onClick="buCleanEvent" />
+                android:onClick="buCleanEvent"
+                />
             <Button
                 android:text="+/-"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners2"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/buPlusMinus"
@@ -57,7 +58,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="%"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners2"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/buPer"
@@ -67,7 +68,7 @@
                 android:onClick="buPercentEvent"/>
             <Button
                 android:text="÷"
-                android:background="@color/bluop"
+                android:background="@drawable/rounded_corners2"
                 android:textColor="@color/white"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
@@ -81,7 +82,7 @@
             android:layout_marginBottom="1pt">
             <Button
                 android:text="7"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu7"
@@ -91,7 +92,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="8"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu8"
@@ -101,7 +102,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="9"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu9"
@@ -111,7 +112,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="X"
-                android:background="@color/bluop"
+                android:background="@drawable/rounded_corners2"
                 android:textColor="@color/white"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
@@ -125,7 +126,7 @@
             android:layout_marginBottom="1pt">
             <Button
                 android:text="4"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu4"
@@ -135,7 +136,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="5"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu5"
@@ -145,7 +146,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="6"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu6"
@@ -155,7 +156,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="-"
-                android:background="@color/bluop"
+                android:background="@drawable/rounded_corners2"
                 android:textColor="@color/white"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
@@ -170,7 +171,7 @@
             android:layout_marginBottom="1pt">
             <Button
                 android:text="1"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu1"
@@ -180,7 +181,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="2"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:id="@+id/bu2"
@@ -190,7 +191,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="3"
-                android:background="@color/green"
+                android:background="@drawable/rounded_corners"
                 android:layout_width="74dp"
                 android:layout_height="30pt"
                 android:id="@+id/bu3"
@@ -200,7 +201,7 @@
                 android:layout_marginRight="1pt"/>
             <Button
                 android:text="+"
-                android:background="@color/bluop"
+                android:background="@drawable/rounded_corners2"
                 android:textColor="@color/white"
                 android:layout_width="72dp"
                 android:layout_height="30pt"
@@ -219,7 +220,7 @@
         android:baselineAligned="true">
         <Button
             android:text="0"
-            android:background="@color/green"
+            android:background="@drawable/rounded_corners"
             android:layout_height="30pt"
             android:id="@+id/bu0"
             android:layout_width="60pt"
@@ -229,7 +230,7 @@
             android:layout_marginRight="1pt"/>
         <Button
             android:text="."
-            android:background="@color/green"
+            android:background="@drawable/rounded_corners"
             android:layout_height="30pt"
             android:id="@+id/buDot"
             android:layout_width="30pt"
@@ -239,7 +240,7 @@
             android:layout_marginRight="1pt"/>
         <Button
             android:text="="
-            android:background="@color/bluop"
+            android:background="@drawable/rounded_corners2"
             android:textColor="@color/white"
             android:layout_height="30pt"
             android:id="@+id/buEq"
